@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/styles.css">
+    <title>Encuesta</title>
+</head>
+<body>
+    <head class="principalHead">
+        <h1 class="principalHead__h1">Encuesta</h1>
+        <h2>Tema</h2>
+        <h3>Procrastinacion</h3>
+    </head>
+    <div class="lineadecoracion"></div>
+    <aside class="registro">
+
+        <form class="registro__user">
+
+            <!-- Nombre del estudiante -->
+            <label for="nombre">Nombre</label>
+            <input required type="text" id="nombre" name="nombre" placeholder="Escriba su nombre...">
+            <br>
+
+            <!-- Rango del estudiante -->
+            <label for="categorias">Rango</label>
+            <select required name="categorias" id="categorias">
+                <optgroup label="Estudiante de Basicos">
+                    <option value="primero">1ro. Basico</option>
+                    <option value="segundo">2ro. Basico</option>
+                    <option value="tercero">3ro. Basico</option>
+                </optgroup>
+                <optgroup label="Otro">
+                    <option value="EstudianteUni">Universitario</option>
+                    <option value="bachiller">Bachiller</option>
+                    <option value="perito">Perito</option>
+                </optgroup>
+            </select>
+            <br>
+
+            <!-- Edad del estudiante -->
+            <label for="edad">Edad</label>
+            <input required type="number" id="edad" name="edad" placeholder="Escriba su edad...">
+            <br>
+
+            <!-- Si trabaja -->
+            <h3>Trabaja?</h3>
+            <input type="radio" id="yes" name="estado">
+            <label for="yes">Si</label>
+            <br>
+            <input type="radio" id="no" name="estado">
+            <label for="no">No</label>
+            <br>
+            <input type="radio" id="inestable" name="estado">
+            <label for="inestable">Inestable</label>
+            <br>
+            
+        </form>
+
+        <!-- Contenido de las preguntas -->
+    <main>
+        <h2 id="#titleCuestion">Cuestionario</h2>
+        <form action="" id="encuesta">
+
+            <label for="pregunta_uno">¿Cuanto tiempo dedicas a repasar el contenido que recibes en el establecimiento?</label>
+            <br>
+            <input type="text" required id="pregunta_uno">
+            <br>
+            <label for="pregunta_dos">¿Qué te motiva a trabajar en tus tareas académicas de manera constante y eficiente?</label>
+            <br>
+            <input type="text" required id="pregunta_dos">
+            <br>
+            <label for="pregunta_uno">¿Cuanto tiempo dedicas a repasar el contenido que recibes en el establecimiento?</label>
+            <br>
+            <input type="text" required id="pregunta_tres">
+            <br>
+            <label for="pregunta_tres">¿Qué te motiva a trabajar en tus tareas académicas de manera constante y eficiente?</label>
+            <br>
+            <input type="text" required id="pregunta_cuatro">
+            <br>
+            <label for="pregunta_cuatro">¿Cuanto tiempo dedicas a repasar el contenido que recibes en el establecimiento?</label>
+            <br>
+            <input type="text" required id="pregunta_cinco">
+            <br>
+            <label for="pregunta_cinco">¿Qué te motiva a trabajar en tus tareas académicas de manera constante y eficiente?</label>
+            <br>
+            <input type="text" required id="pregunta_seis">
+            <br>
+            <label for="pregunta_seis">¿Cuanto tiempo dedicas a repasar el contenido que recibes en el establecimiento?</label>
+            <br>
+            <input type="text" required id="pregunta_siete">
+            <br>
+            <label for="pregunta_siete">¿Qué te motiva a trabajar en tus tareas académicas de manera constante y eficiente?</label>
+            <br>
+            <input type="text" required id="pregunta_ocho">
+            <br>
+            <label for="pregunta_ocho">¿Cuanto tiempo dedicas a repasar el contenido que recibes en el establecimiento?</label>
+            <br>
+            <input type="text" required id="pregunta_nueve">
+            <br>
+            <label for="pregunta_nueve">¿Qué te motiva a trabajar en tus tareas académicas de manera constante y eficiente?</label>
+            <br>
+            <input type="text" required id="pregunta_diez">
+            <br>
+            <label for="pregunta_diez">¿Cuanto tiempo dedicas a repasar el contenido que recibes en el establecimiento?</label>
+        </form>
+    </main>
+    <section class="barControles">
+        <button type="reset" form="encuesta">Resetear</button>
+        <a href="#titleCuestion">up</a>
+        <button type="submit" form="encuesta">Enviar</button>
+    </section>
+</body>
+</html>
